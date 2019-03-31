@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="zafu.schedule.manage"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+
+        android:icon="@drawable/icon0"
+        android:label="炒鸡课程表"
+        android:theme="@style/AppTheme">
+        <activity android:name="zafu.schedule.manage.activity.MainActivity">
+        </activity>
+        <activity android:name="zafu.schedule.manage.activity.LoginActivity"></activity>
+        <activity android:name="zafu.schedule.manage.activity.AboutActivity"></activity>
+        <activity android:name="zafu.schedule.manage.activity.CourseActivity"></activity>
+        <activity android:name="zafu.schedule.manage.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="zafu.schedule.manage.activity.ScoreActivity"></activity>
+        <activity android:name="zafu.schedule.manage.activity.ScoreShowActivity"></activity>
+        <activity android:name="zafu.schedule.manage.activity.ClassRoomActivity"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
